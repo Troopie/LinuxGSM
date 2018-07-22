@@ -1113,7 +1113,7 @@ elif [ "${gamename}" == "Quake Live" ]; then
 elif [ "${engine}" == "lwjgl2" ]; then
 	fn_info_config_minecraft
 # Post Scriptum: The Bloody Seventh
-elif [ "${gamename}" == "PostScriptumServer" ]; then
+elif [ "${gamename}" == "pstbsserver" ]; then
 	fn_info_config_pstbs
 # Project Cars
 elif [ "${gamename}" == "Project Cars" ]; then
