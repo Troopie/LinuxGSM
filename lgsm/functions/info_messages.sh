@@ -694,7 +694,7 @@ fn_info_message_mumble(){
 	} | column -s $'\t' -t
 }
 fn_info_Message_pstbs(){
-	echo -e "netstat -atunp | grep pstbsserver"
+	echo -e "netstat -atunp | grep PostScriptumServer"
 	echo -e ""
 	{
 		echo -e "DESCRIPTION\tDIRECTION\tPORT\tPROTOCOL"
@@ -1116,7 +1116,7 @@ fn_info_message_select_engine(){
 		fn_info_message_justcause3
 	elif [ "${shortname}" == "kf2" ]; then
 		fn_info_message_kf2
-	elif [ "${gamename}" == "pstbsserver" ]; then
+	elif [ "${gamename}" == "PostScriptumServer" ]; then
 		fn_info_Message_pstbs		
 	elif [ "${gamename}" == "Project Cars" ]; then
 		fn_info_message_projectcars
